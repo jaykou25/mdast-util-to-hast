@@ -1,6 +1,6 @@
 {
-  "name": "mdast-util-to-hast",
-  "version": "13.2.0",
+  "name": "@jay.kou/mdast-util-to-hast",
+  "version": "0.1.0",
   "description": "mdast utility to transform to hast",
   "license": "MIT",
   "keywords": [
@@ -64,6 +64,7 @@
     "build": "tsc --build --clean && tsc --build && type-coverage",
     "format": "remark . -qfo && prettier . -w --log-level warn && xo --fix",
     "test-api": "node --conditions development test/index.js",
+    "my-test": "node --conditions development my-test/index.js",
     "test-coverage": "c8 --100 --reporter lcov npm run test-api",
     "test": "npm run build && npm run format && npm run test-coverage"
   },
