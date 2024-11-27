@@ -82,4 +82,6 @@ folked from [mdast-util-to-hast](https://github.com/syntax-tree/mdast-util-to-ha
 
 ## 测试
 
-测试用例单独写在 my-test 文件夹中. 运行脚本 `npm run my-test`
+测试用例单独写在 my-test 文件夹中.
+
+运行脚本 `npm run my-test`
